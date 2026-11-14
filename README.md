@@ -16,7 +16,7 @@ node tests/highlighting.cjs
 
 Alternatively set `QSS_TREE_SITTER_CLI` to the tree-sitter executable path.
 
-When changing the grammar, run `tree-sitter generate` in `grammar/`, followed by `node scripts/split-parser.cjs` from the repository root. The script splits the generated parser into included files; together they compile as the original translation unit. Run the checks again after regenerating it.
+When changing the grammar, run `tree-sitter generate --abi 14` in `grammar/`, followed by `node scripts/split-parser.cjs` from the repository root. The script splits the generated parser into included files; together they compile as the original translation unit. Run the checks again after regenerating it.
 
 ## Attribution
 
