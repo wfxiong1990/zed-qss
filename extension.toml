@@ -1,0 +1,12 @@
+id = "qss"
+name = "QSS"
+version = "0.1.0"
+schema_version = 1
+authors = ["wfxiong1990"]
+description = "Qt Style Sheets syntax highlighting"
+repository = "https://github.com/wfxiong1990/zed-qss"
+
+[grammars.qss]
+repository = "https://github.com/wfxiong1990/zed-qss"
+rev = "9dd2ed25d05fff85aec568cbd9d7568b6302dd15"
+path = "grammar"
